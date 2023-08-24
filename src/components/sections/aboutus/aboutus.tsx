@@ -1,14 +1,16 @@
 // Aboutus.js
 
+import React from "react";
+
 export default function Aboutus() {
     return (
-        <div className="bg-gradient2 h-screen flex items-center justify-center">
-            <div className="w-1452 h-755 p-6">
+        <div className="bg-gradient2 flex items-center justify-center h-screen">
+            <div className="w-full h-755 p-6">
+                <h1 className=" flex items-center justify-center text-4xl md:text-5xl lg:text-6xl text-white font-sub-heading mb-4">
+                    About Us
+                </h1>
                 <div className="h-full bg-gradient rounded-2xl p-6">
                     <div className="text-center">
-                        <b className="text-xl tracking-[0.1em] leading-[27.5px] uppercase inline-block font-sub-heading text-white p-2.5">
-                            About Us
-                        </b>
                         <p className="text-gray-200 mt-4">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Nullam eget pretium nunc, a vehicula neque. Fusce eget

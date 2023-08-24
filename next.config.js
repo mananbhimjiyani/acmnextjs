@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-        domains: ['www.sitpune.edu.in'], // Add your domain here
+        domains: ['www.sitpune.edu.in','imagizer.imageshack.com'], // Add your domain here
     },
 }
 

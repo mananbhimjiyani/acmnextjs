@@ -1,3 +1,4 @@
+"use client"
 import Hero from "@/components/sections/hero/hero";
 import Featuredon from "@/components/sections/featuredon/featuredon";
 import Gallery from "@/components/sections/gallery/gallery";
@@ -9,6 +10,9 @@ import TestimonialImg01 from "../components/Images/TestimonialImg01.png"
 import TestimonialImg02 from "../components/Images/TestimonialImg02.png"
 import TestimonialImg03 from "../components/Images/TestimonialImg03.png"
 import TestimonialImg04 from "../components/Images/TestimonialImg04.png"
+import ContactUs from "@/components/sections/contactus/contactus";
+import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+
 const team = [
     {
         img: TestimonialImg01,
@@ -38,12 +42,25 @@ const team = [
 export default function Home(){
     return(
         <>
-            <Navbar/>
-            <Hero/>
-            <Featuredon/>
-            <Gallery/>
-            <Aboutus/>
-            <TeamsSlider teams={team}/>
+            <Navbar />
+            <Element name="hero">
+                <Hero />
+            </Element>
+            <Element name="featuredon">
+                <Featuredon />
+            </Element>
+            <Element name="gallery">
+                <Gallery />
+            </Element>
+            <Element name="aboutus">
+                <Aboutus />
+            </Element>
+            <Element name="team">
+                <TeamsSlider teams={team} />
+            </Element>
+            <Element name="contactus">
+                <ContactUs />
+            </Element>
         </>
     )
 }
