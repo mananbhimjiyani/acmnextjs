@@ -1,8 +1,10 @@
 import React from "react";
 import "./contactus.css";
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import {Link} from "react-scroll";
 
 export default function contactus() {
+    const navHeight = 80;
     return (
         <>
             <footer className="bg-gallery text-white py-6">
@@ -112,22 +114,70 @@ export default function contactus() {
                                 <div className="footer-menu">
                                     <ul className="nav nav-pills">
                                         <li className="nav-item">
-                                            <a className="nav-link hover:text-contactus" href="#scrollspyHeading1">Home</a>
+                                            <Link
+                                                to="hero"
+                                                smooth={true}
+                                                duration={500}
+                                                className="text-white hover:cursor-pointer"
+                                                offset={-navHeight}
+                                            >
+                                                Home
+                                            </Link>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link hover:text-contactus" href="#scrollspyHeading2">About Us</a>
+                                            <Link
+                                                to="featuredon"
+                                                smooth={true}
+                                                duration={500}
+                                                className="text-white hover:cursor-pointer"
+                                                offset={-navHeight}
+                                            >
+                                                Featured
+                                            </Link>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link hover:text-contactus" href="#scrollspyHeading3">Gallery</a>
+                                            <Link
+                                                to="gallery"
+                                                smooth={true}
+                                                duration={500}
+                                                className="text-white hover:cursor-pointer"
+                                                offset={-navHeight}
+                                            >
+                                                Gallery
+                                            </Link>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link hover:text-contactus" href="#scrollspyHeading4">Our team</a>
+                                            <Link
+                                                to="aboutus"
+                                                smooth={true}
+                                                duration={500}
+                                                className="text-white hover:cursor-pointer"
+                                                offset={-navHeight}
+                                            >
+                                                About Us
+                                            </Link>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link hover:text-contactus" href="#scrollspyHeading5">Events</a>
+                                            <Link
+                                                to="team"
+                                                smooth={true}
+                                                duration={500}
+                                                className="text-white hover:cursor-pointer"
+                                                offset={-navHeight}
+                                            >
+                                                Team
+                                            </Link>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link hover:text-contactus" href="#scrollspyHeading6">Contact Us</a>
+                                            <Link
+                                                to="contactus"
+                                                smooth={true}
+                                                duration={500}
+                                                className="text-white hover:cursor-pointer"
+                                                offset={-navHeight}
+                                            >
+                                                Contact Us
+                                            </Link>
                                         </li>
                                     </ul>
                                 </div>
