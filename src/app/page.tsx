@@ -5,6 +5,10 @@ import Navbar from "@/components/sections/navbar/navbar";
 import {Abel} from "next/dist/compiled/@next/font/dist/google";
 import Aboutus from "@/components/sections/aboutus/aboutus";
 import TeamsSlider from "@/components/sections/team/team";
+import TestimonialImg01 from "../components/Images/TestimonialImg01.png"
+import TestimonialImg02 from "../components/Images/TestimonialImg02.png"
+import TestimonialImg03 from "../components/Images/TestimonialImg03.png"
+import TestimonialImg04 from "../components/Images/TestimonialImg04.png"
 const team = [
     {
         img: TestimonialImg01,
@@ -13,19 +17,19 @@ const team = [
         role: 'Web Development'
     },
     {
-        img: TestimonialImg01,
+        img: TestimonialImg02,
         quote: "Having the power to capture user feedback is revolutionary. Even if a participant abandons the sign-up process midway, their valuable input remains intact.",
         name: 'Malvika Bhadoria',
         role: 'Web Development'
     },
     {
-        img: TestimonialImg01,
+        img: TestimonialImg03,
         quote: "The functionality to capture responses is a true game-changer. Even if a user becomes fatigued during sign-up and abandons the process, their information remains stored.",
         name: 'Megha Beria',
         role: 'Web Development'
     },
     {
-        img: TestimonialImg01,
+        img: TestimonialImg04,
         quote: "The functionality to capture responses is a true game-changer. Even if a user becomes fatigued during sign-up and abandons the process, their information remains stored.",
         name: 'Megha Beria',
         role: 'Web Development'
