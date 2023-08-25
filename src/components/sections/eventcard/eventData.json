@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "category": "Pasta",
+    "title": "Spaguetti Bolognese",
+    "duration": "30 Mins",
+    "serving": "1 Serving"
+  },
+  {
+    "id": 2,
+    "category": "Pizza",
+    "title": "Margherita Pizza",
+    "duration": "25 Mins",
+    "serving": "2 Servings"
+  },
+  {
+    "id": 3,
+    "category": "Burger",
+    "title": "Classic Cheeseburger",
+    "duration": "20 Mins",
+    "serving": "1 Serving"
+  }
+]

@@ -47,6 +47,15 @@ export default function Navbar() {
                         About Us
                     </Link>
                     <Link
+                        to="events"
+                        smooth={true}
+                        duration={500}
+                        className="text-white hover:cursor-pointer"
+                        offset={-navHeight}
+                    >
+                        Events
+                    </Link>
+                    <Link
                         to="team"
                         smooth={true}
                         duration={500}

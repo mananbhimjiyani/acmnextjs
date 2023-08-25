@@ -3,8 +3,8 @@ import Hero from "@/components/sections/hero/hero";
 import Featuredon from "@/components/sections/featuredon/featuredon";
 import Gallery from "@/components/sections/gallery/gallery";
 import Navbar from "@/components/sections/navbar/navbar";
-import {Abel} from "next/dist/compiled/@next/font/dist/google";
 import Aboutus from "@/components/sections/aboutus/aboutus";
+import Eventcard from "@/components/sections/eventcard/eventcard";
 import TeamsSlider from "@/components/sections/team/team";
 import TestimonialImg01 from "../components/Images/TestimonialImg01.png"
 import TestimonialImg02 from "../components/Images/TestimonialImg02.png"
@@ -12,6 +12,7 @@ import TestimonialImg03 from "../components/Images/TestimonialImg03.png"
 import TestimonialImg04 from "../components/Images/TestimonialImg04.png"
 import ContactUs from "@/components/sections/contactus/contactus";
 import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import {Event} from "next/dist/compiled/@edge-runtime/primitives";
 
 const team = [
     {
@@ -54,6 +55,9 @@ export default function Home(){
             </Element>
             <Element name="aboutus">
                 <Aboutus />
+            </Element>
+            <Element name="events">
+                <Eventcard/>
             </Element>
             <Element name="team">
                 <TeamsSlider teams={team} />

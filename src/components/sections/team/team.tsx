@@ -35,7 +35,7 @@ export default function TeamsSlider({teams}: { teams: team[] }) {
 
     return (
 
-        <div className={"h-screen flex flex-col items-center justify-center relative"}>
+        <div className={"h-screen flex flex-col items-center justify-center relative bg-gallery"}>
             <h1 className="text-4xl md:text-5xl lg:text-6xl text-white font-sub-heading mb-4">
                 Team
             </h1>

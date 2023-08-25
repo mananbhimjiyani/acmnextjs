@@ -9,14 +9,14 @@ export default function Hero() {
         <>
             <div className={`hero ${styles.hero} h-screen flex items-center justify-center`}>
                 <div>
-                    <h1 className={"text-white text-9xl"}>
+                    <h1 className={"text-white text-7xl"}>
                     <Typewriter
                         words={['ACM','SIT']}
                         loop={5}
                         cursor
                         cursorStyle='|'
-                        typeSpeed={70}
-                        deleteSpeed={50}
+                        typeSpeed={200}
+                        deleteSpeed={150}
                         delaySpeed={1000}
                     />
                     </h1>

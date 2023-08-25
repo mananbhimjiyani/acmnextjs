@@ -7,7 +7,7 @@ export default function contactus() {
     const navHeight = 80;
     return (
         <>
-            <footer className="bg-gallery text-white py-6">
+            <footer className="text-white py-6">
                 <div className="container mx-auto">
                     <div className="footer-cta pt-5 pb-5">
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -107,7 +107,7 @@ export default function contactus() {
                                 <div className="copyright-text">
                                     <p>Copyright &copy; 2023, All Right Reserved <a
                                         href="https://sitpune.edu.in/" className="text-contactus">SIT</a></p>
-                                    <p>Made with Love by SIT-ACM Team &hearts;</p>
+                                    <p>Made with &hearts; by SIT-ACM Team </p>
                                 </div>
                             </div>
                             <div className="col-xl-6 col-lg-6 d-none d-lg-block text-right">
@@ -155,6 +155,17 @@ export default function contactus() {
                                                 offset={-navHeight}
                                             >
                                                 About Us
+                                            </Link>
+                                        </li>
+                                        <li className="nav-item">
+                                            <Link
+                                                to="events"
+                                                smooth={true}
+                                                duration={500}
+                                                className="text-white hover:cursor-pointer"
+                                                offset={-navHeight}
+                                            >
+                                                Events
                                             </Link>
                                         </li>
                                         <li className="nav-item">
