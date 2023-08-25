@@ -4,19 +4,19 @@ import React from "react";
 
 export default function Aboutus() {
     return (
-        <div className="bg-gradient2 flex items-center justify-center h-full">
-            <div className="w-full h-755 p-24">
-                <h1 className=" flex items-center justify-center text-4xl md:text-5xl lg:text-6xl text-white font-sub-heading mb-4">
+        <div className="bg-gradient2 flex flex-col items-center justify-center h-full py-10 px-14">
+                <h1 className="flex items-center justify-center text-4xl md:text-5xl lg:text-6xl text-white font-sub-heading py-10">
                     About Us
                 </h1>
                 <div className="h-full bg-gradient rounded-2xl p-10">
                     <div className="text-center">
-                        <p className="text-gray-200 mt-4">
+                        <p className="text-gray-200 mt-2"> {/* Reduced mt-4 to mt-2 */}
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Nullam eget pretium nunc, a vehicula neque. Fusce eget
                             odio massa. Vivamus consequat, arcu vel efficitur auctor,
                             ex ex euismod elit.
                         </p>
+
                         <p className="text-gray-200 mt-4">
                             Mauris eu libero nec justo facilisis tincidunt.
                             Suspendisse vel tortor facilisis, aliquet lorem eu,
@@ -60,7 +60,6 @@ export default function Aboutus() {
                         </p>
                     </div>
                 </div>
-            </div>
         </div>
     );
 }

@@ -9,7 +9,7 @@ export default function Hero() {
         <>
             <div className={`hero ${styles.hero} h-screen flex items-center justify-center`}>
                 <div>
-                    <h1 className={"text-white text-7xl"}>
+                    <h1 className={"text-white lg:text-7xl font-semibold sm:text-5xl md:text-5xl"}>
                     <Typewriter
                         words={['ACM','SIT']}
                         loop={5}
