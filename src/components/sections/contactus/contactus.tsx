@@ -89,9 +89,9 @@ export default function contactus() {
                                         <input
                                             type="text"
                                             placeholder="Email Address"
-                                            className="w-full p-2 border border-gray-500 rounded-l focus:outline-none"
+                                            className="w-full p-2 border border-gray-500 rounded-xl focus:outline-none"
                                         />
-                                        <button className="bg-contactus text-white px-4 py-2 rounded-r hover:bg-orange-600 focus:outline-none">
+                                        <button className="bg-contactus text-white px-4 py-2 rounded-r hover:bg-indigo-300 focus:outline-none">
                                             <i className="fab fa-telegram-plane fill-contactus"></i>
                                         </button>
                                     </form>
@@ -100,98 +100,17 @@ export default function contactus() {
                         </div>
                     </div>
                 </div>
-                <div className="copyright-area bg-gray-900 text-white">
+                <div className="copyright-area text-white">
                     <div className="container">
                         <div className="row">
                             <div className="col-xl-6 col-lg-6 text-center text-lg-left">
                                 <div className="copyright-text">
                                     <p>Copyright &copy; 2023, All Right Reserved <a
                                         href="https://sitpune.edu.in/" className="text-contactus">SIT</a></p>
-                                    <p>Made with &hearts; by SIT-ACM Team </p>
                                 </div>
                             </div>
                             <div className="col-xl-6 col-lg-6 d-none d-lg-block text-right">
-                                <div className="footer-menu">
-                                    <ul className="nav nav-pills">
-                                        <li className="nav-item">
-                                            <Link
-                                                to="hero"
-                                                smooth={true}
-                                                duration={500}
-                                                className="text-white hover:cursor-pointer"
-                                                offset={-navHeight}
-                                            >
-                                                Home
-                                            </Link>
-                                        </li>
-                                        <li className="nav-item">
-                                            <Link
-                                                to="featuredon"
-                                                smooth={true}
-                                                duration={500}
-                                                className="text-white hover:cursor-pointer"
-                                                offset={-navHeight}
-                                            >
-                                                Featured
-                                            </Link>
-                                        </li>
-                                        <li className="nav-item">
-                                            <Link
-                                                to="gallery"
-                                                smooth={true}
-                                                duration={500}
-                                                className="text-white hover:cursor-pointer"
-                                                offset={-navHeight}
-                                            >
-                                                Gallery
-                                            </Link>
-                                        </li>
-                                        <li className="nav-item">
-                                            <Link
-                                                to="aboutus"
-                                                smooth={true}
-                                                duration={500}
-                                                className="text-white hover:cursor-pointer"
-                                                offset={-navHeight}
-                                            >
-                                                About Us
-                                            </Link>
-                                        </li>
-                                        <li className="nav-item">
-                                            <Link
-                                                to="events"
-                                                smooth={true}
-                                                duration={500}
-                                                className="text-white hover:cursor-pointer"
-                                                offset={-navHeight}
-                                            >
-                                                Events
-                                            </Link>
-                                        </li>
-                                        <li className="nav-item">
-                                            <Link
-                                                to="team"
-                                                smooth={true}
-                                                duration={500}
-                                                className="text-white hover:cursor-pointer"
-                                                offset={-navHeight}
-                                            >
-                                                Team
-                                            </Link>
-                                        </li>
-                                        <li className="nav-item">
-                                            <Link
-                                                to="contactus"
-                                                smooth={true}
-                                                duration={500}
-                                                className="text-white hover:cursor-pointer"
-                                                offset={-navHeight}
-                                            >
-                                                Contact Us
-                                            </Link>
-                                        </li>
-                                    </ul>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>

@@ -9,7 +9,7 @@ ul {
     border-bottom: 1px solid #373636;
 }
 .single-cta i {
-    color: #ff5e14;
+    color: #8C8BDA;
     font-size: 30px;
     float: left;
     margin-top: 8px;
@@ -95,16 +95,15 @@ ul {
     bottom: -15px;
     height: 2px;
     width: 50px;
-    background: #007AFE;
+    background: #A5D7D8;
 }
 .footer-widget ul li {
     display: inline-block;
-    float: left;
     width: 50%;
     margin-bottom: 12px;
 }
 .footer-widget ul li a:hover{
-    color: #007AFE;
+    color: #A5D7D8;
 }
 /*.footer-widget ul li a {*/
 /*    color: #878787;*/
@@ -124,9 +123,9 @@ ul {
 .subscribe-form button {
     position: absolute;
     right: 0;
-    background: #007AFE;
+    background: #8C8BDA;
     padding: 13px 20px;
-    border: 1px solid #007AFE;
+    border: 1px solid #8C8BDA;
     top: 0;
 }
 .subscribe-form button i {
@@ -134,20 +133,22 @@ ul {
     font-size: 22px;
     transform: rotate(-6deg);
 }
+
+
 .copyright-text p {
     margin: 0;
     font-size: 14px;
     color: #878787;
 }
 .copyright-text p a{
-    color: #007AFE;
+    color: #A5D7D8;
 }
 .footer-menu li {
     display: inline-block;
     margin-left: 20px;
 }
 .footer-menu li:hover a{
-    color: #007AFE;
+    color: #A5D7D8;
 }
 .footer-menu li a {
     font-size: 14px;
