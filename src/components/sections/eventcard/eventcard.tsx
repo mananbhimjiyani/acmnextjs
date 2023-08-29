@@ -13,12 +13,12 @@ const MAX_VISIBILITY = 3;
 interface CardProps {
     src: string;
     alt: string;
-    height: string;
-    width: string;
+    height: number;
+    width: number;
     title: string;
     content: string;
     url: string;
-    registration: boolean;
+    registration: string;
 }
 const Card: React.FC<CardProps> = ({ src, alt, height, width, title, content ,url,registration}) => {
     const router = useRouter();
