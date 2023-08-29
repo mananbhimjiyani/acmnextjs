@@ -1,8 +1,9 @@
 .hero {
-    background-image: url("https://lh3.googleusercontent.com/p/AF1QipOgmOXs8kO_FVYluEqHyuEBTNyDzkIo8gRSH8p_=s1360-w1360-h1020");
+    background-image: url("https://www.sitpune.edu.in/assets/images/banner/HC4A0654.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
     min-height: 725px;
     opacity: 80%;
+    max-height: fit-content;
 }

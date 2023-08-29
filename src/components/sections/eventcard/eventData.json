@@ -1,23 +1,112 @@
 [
   {
     "id": 1,
-    "category": "Pasta",
-    "title": "Spaguetti Bolognese",
-    "duration": "30 Mins",
-    "serving": "1 Serving"
+    "src": "/Images/image1.jpg",
+    "alt": "Image 1",
+    "height": "2000",
+    "width": "2000",
+    "title": "Title 1",
+    "content": "Content for Image 1",
+    "registration": "True",
+    "url": "https://www.instagram.com"
   },
   {
     "id": 2,
-    "category": "Pizza",
-    "title": "Margherita Pizza",
-    "duration": "25 Mins",
-    "serving": "2 Servings"
+    "src": "/Images/image2.jpeg",
+    "alt": "Image 2",
+    "height": "2000",
+    "width": "2000",
+    "title": "Title 2",
+    "content": "Content for Image 2",
+    "registration": "True",
+    "url": "https://www.instagram.com"
   },
   {
     "id": 3,
-    "category": "Burger",
-    "title": "Classic Cheeseburger",
-    "duration": "20 Mins",
-    "serving": "1 Serving"
+    "src": "/Images/image1.jpg",
+    "alt": "Image 3",
+    "height": "2000",
+    "width": "2000",
+    "title": "Title 3",
+    "content": "Content for Image 3",
+    "registration": "False",
+    "url": "https://www.instagram.com"
+  },
+  {
+    "id": 4,
+    "src": "/Images/image1.jpg",
+    "alt": "Image 4",
+    "height": "2000",
+    "width": "2000",
+    "title": "Title 4",
+    "content": "Content for Image 4",
+    "registration": "True",
+    "url": "https://www.instagram.com"
+  },
+  {
+    "id": 5,
+    "src": "/Images/image1.jpg",
+    "alt": "Image 5",
+    "height": "2000",
+    "width": "2000",
+    "title": "Title 5",
+    "content": "Content for Image 5",
+    "registration": "True",
+    "url": "https://www.instagram.com"
+  },
+  {
+    "id": 6,
+    "src": "/Images/image1.jpg",
+    "alt": "Image 6",
+    "height": "2000",
+    "width": "2000",
+    "title": "Title 6",
+    "content": "Content for Image 6",
+    "registration": "True",
+    "url": "https://www.instagram.com"
+  },
+  {
+    "id": 7,
+    "src": "/Images/image1.jpg",
+    "alt": "Image 7",
+    "height": "2000",
+    "width": "2000",
+    "title": "Title 7",
+    "content": "Content for Image 7",
+    "registration": "True",
+    "url": "https://www.instagram.com"
+  },
+  {
+    "id": 8,
+    "src": "/Images/image1.jpg",
+    "alt": "Image 8",
+    "height": "2000",
+    "width": "2000",
+    "title": "Title 8",
+    "content": "Content for Image 8",
+    "registration": "True",
+    "url": "https://www.instagram.com"
+  },
+  {
+    "id": 9,
+    "src": "/Images/image1.jpg",
+    "alt": "Image 9",
+    "height": "2000",
+    "width": "2000",
+    "title": "Title 9",
+    "content": "Content for Image 9",
+    "registration": "True",
+    "url": "https://www.instagram.com"
+  },
+  {
+    "id": 10,
+    "src": "/Images/image1.jpg",
+    "alt": "Image 10",
+    "height": "2000",
+    "width": "2000",
+    "title": "Title 10",
+    "content": "Content for Image 10",
+    "registration": "True",
+    "url": "https://www.instagram.com"
   }
 ]
