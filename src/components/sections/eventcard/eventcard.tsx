@@ -3,7 +3,6 @@ import React, {useState, ReactNode, Children, useEffect} from 'react';
 import {TiChevronLeftOutline, TiChevronRightOutline} from 'react-icons/ti';
 import './styles.scss';
 import Image from 'next/image';
-import sit from "../../Images/HC4A0654.jpg";
 import jsonData from './eventData.json';
 import {Button} from "@mui/material-next";
 import { useRouter } from 'next/navigation'
@@ -11,6 +10,7 @@ import { useRouter } from 'next/navigation'
 const MAX_VISIBILITY = 3;
 
 interface CardProps {
+    id?: number;
     src: string;
     alt: string;
     height: number;
@@ -20,7 +20,7 @@ interface CardProps {
     url: string;
     registration: string;
 }
-const Card: React.FC<CardProps> = ({ src, alt, height, width, title, content ,url,registration}) => {
+const Card: React.FC<CardProps> = ({ id,src, alt, height, width, title, content ,url,registration}) => {
     const router = useRouter();
     const handleClick = () => {
        router.push(url);
@@ -66,10 +66,12 @@ const Carousel: React.FC<CarouselProps> = ({children}) => {
                 <div
                     className='card-container'
                     style={{
-                        '--active': i === active ? 1 : 0,
-                        '--offset': (active - i) / 3,
-                        '--direction': Math.sign(active - i),
-                        '--abs-offset': Math.abs(active - i) / 3,
+                        ...{
+                            '--active': (i === active ? 1 : 0),
+                            '--offset': ((active - i) / 3),
+                            '--direction': (Math.sign(active - i)),
+                            '--abs-offset': (Math.abs(active - i) / 3),
+                        } as React.CSSProperties,
                         'pointerEvents': active === i ? 'auto' : 'none',
                         'opacity': Math.abs(active - i) >= MAX_VISIBILITY ? '0' : '1',
                         'display': Math.abs(active - i) > MAX_VISIBILITY ? 'none' : 'block',
@@ -89,7 +91,7 @@ const Carousel: React.FC<CarouselProps> = ({children}) => {
 };
 
 export default function Eventscards() {
-    const [cardsData, setCardsData] = useState([]);
+    const [cardsData, setCardsData] = useState<CardProps[]>([]);
 
     useEffect(() => {
         // Set your JSON data to the state
