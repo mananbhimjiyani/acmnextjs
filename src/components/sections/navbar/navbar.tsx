@@ -65,7 +65,7 @@ export default function Navbar() {
                         Team
                     </Link>
                     <Link
-                        to="contactus"
+                        to="footer"
                         smooth={true}
                         duration={500}
                         className="text-white hover:cursor-pointer"

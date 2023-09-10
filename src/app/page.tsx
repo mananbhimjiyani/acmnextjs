@@ -10,9 +10,8 @@ import TestimonialImg01 from "../components/Images/TestimonialImg01.png"
 import TestimonialImg02 from "../components/Images/TestimonialImg02.png"
 import TestimonialImg03 from "../components/Images/TestimonialImg03.png"
 import TestimonialImg04 from "../components/Images/TestimonialImg04.png"
-import ContactUs from "@/components/sections/contactus/contactus";
 import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
-import {Event} from "next/dist/compiled/@edge-runtime/primitives";
+import Footer from "@/components/sections/footer/footer";
 
 const team = [
     {
@@ -62,8 +61,8 @@ export default function Home(){
             <Element name="team">
                 <TeamsSlider teams={team} />
             </Element>
-            <Element name="contactus">
-                <ContactUs />
+            <Element name="footer">
+                <Footer/>
             </Element>
         </>
     )
