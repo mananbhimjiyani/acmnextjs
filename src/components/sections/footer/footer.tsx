@@ -1,4 +1,5 @@
 import "./footer.css";
+import Image from "next/image";
 
 export default function Footer() {
     return (
@@ -7,7 +8,7 @@ export default function Footer() {
                 <div className="mx-auto max-w-screen-xl p-4 py-6 lg:py-8 rounded-2xl text-center">
                     <div className="md:flex md:justify-between">
                         <div className="mb-6 md:mb-0">
-                            <img src="http://localhost:3000/_next/image?url=https%3A%2F%2Fimagizer.imageshack.com%2Fimg923%2F4372%2F6Pl6Bz.png&w=256&q=75" className="h-52 mx-auto"
+                            <Image src="https://imagizer.imageshack.com/img923/4372/6Pl6Bz.png" className="mx-auto" height={"175"} width={"175"}
                             alt="ACM-SIT Logo"/>
 
                         </div>
