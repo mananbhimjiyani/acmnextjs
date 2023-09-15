@@ -127,7 +127,7 @@ export default function Navbar() {
                 to="footer"
                 style={{ color: "#739BD0" }}
               >
-                Footer
+                Contact Us
               </Link>
             </li>
           </ul>
